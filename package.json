@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-javascript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufshakeel/sequelize-javascript-project.git"
+  },
+  "author": "Yusuf Shakeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yusufshakeel/sequelize-javascript-project/issues"
+  },
+  "homepage": "https://github.com/yusufshakeel/sequelize-javascript-project#readme",
+  "dependencies": {
+    "fast-safe-stringify": "^2.1.1",
+    "pg": "^8.11.5",
+    "pino": "^9.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
