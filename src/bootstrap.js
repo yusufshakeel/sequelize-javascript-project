@@ -2,11 +2,11 @@
 
 const shutdown = require("./shutdown");
 const { sequelize, initDbConnection } = require("./utils/dbconn");
-require("./models/customer");
+const Customer = require("./models/customer");
 
 module.exports = async function bootstrap() {
   await initDbConnection();
-
+  Customer(sequelize);
   await sequelize.sync();
   shutdown({ sequelize });
 };
